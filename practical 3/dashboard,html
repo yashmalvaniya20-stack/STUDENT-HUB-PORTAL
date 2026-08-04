@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1 style="text-align: center; background-color: #2003f9b5; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); margin: auto; width: 1000px;">Student Hub Portal</h1>
+    <hr>
+    <div border="1" style="width: auto; margin: auto; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(1, 1, 1, 0.5);;">
+    <h2 style="text-align: center; text-decoration: underline;">Welcome to the Student Hub Dashboard</h2>
+    </div>
+    <br>
+  
+<div style="text-align: center;border: 1px solid black; width: 400px; margin: auto; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(1, 1, 1, 0.5);">
+        <a href="D:\studenthub\pages\profile.html" class="button-profile">Profile</a>
+        <style>
+            .button-profile {
+  display: inline-block;
+  padding: 20px 100px;
+  background-color:gray;
+  color:black;
+  text-decoration: none; /* Removes the underline */
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.button-profile:hover {
+  background-color: #0056b3; /* Darkens on hover */
+}
+</style>
+</div>
+<br>
+<div style="text-align: center;border: 1px solid black; width: 400px; margin: auto; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(1, 1, 1, 0.5);">
+        <a href="D:\studenthub\pages\attendance.html" class="button-attendance">Attendance</a>
+        <style>
+            .button-attendance {
+  display: inline-block;
+  padding: 20px 82px;
+  background-color:gray;
+  color:black;
+  text-decoration: none; /* Removes the underline */
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.button-attendance:hover {
+  background-color: #0056b3; /* Darkens on hover */
+}
+</style>
+</div>
+<br>
+<div style="text-align: center;border: 1px solid black; width: 400px; margin: auto; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(1, 1, 1, 0.5);">
+        <a href="D:\studenthub\pages\assignment.html" class="button-assignments">Assignments</a>
+        <style>
+            .button-assignments {
+  display: inline-block;
+  padding: 20px 78px;
+  background-color:gray;
+  color:black;
+  text-decoration: none; /* Removes the underline */
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.button-assignments:hover {
+  background-color: #0056b3; /* Darkens on hover */
+}
+</style>
+</div>
+<br>
+<div style="text-align: center;border: 1px solid black; width: 400px; margin: auto; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(1, 1, 1, 0.5);">
+        <a href="D:\studenthub\pages\courses.html" class="button-courses">Courses</a>
+        <style>
+            .button-courses {
+  display: inline-block;
+  padding: 20px 100px;
+  background-color:gray;
+  color:black;
+  text-decoration: none; /* Removes the underline */
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.button-courses:hover {
+  background-color: #0056b3; /* Darkens on hover */
+}
+</style>
+</div>
+<br>
+<div style="text-align: center;border: 1px solid black; width: 400px; margin: auto; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(1, 1, 1, 0.5);">
+        <a href="D:\studenthub\pages\result.html" class="button-results">Results</a>
+        <style>
+            .button-results {
+  display: inline-block;
+  padding: 20px 105px;
+  background-color:gray;
+  color:black;
+  text-decoration: none; /* Removes the underline */
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.button-results:hover {
+  background-color: #0056b3; /* Darkens on hover */
+}
+</style>
+</div>
+<br>
+<div style="text-align: center;border: 1px solid black; width: 400px; margin: auto; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(1, 1, 1, 0.5);">
+        <a href="D:\studenthub\pages\register.html" class="button-register">Register</a>
+        <style>
+            .button-register {
+  display: inline-block;
+  padding: 20px 102px;
+  background-color:gray;
+  color:black;
+  text-decoration: none; /* Removes the underline */
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.button-register:hover {
+  background-color: #0056b3; /* Darkens on hover */
+}
+</style>
+</div>
+<br>
+<div style="text-align: center;border: 1px solid black; width: 400px; margin: auto; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(1, 1, 1, 0.5);">
+        <a href="D:\studenthub\pages\contact.html" class="button-contact">Contact</a>
+        <style>
+            .button-contact {
+  display: inline-block;
+  padding: 20px 102px;
+  background-color:gray;
+  color:black;
+  text-decoration: none; /* Removes the underline */
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.button-contact:hover {
+  background-color: #0056b3; /* Darkens on hover */
+}
+</style>
+</div>
+</body>
+</html>
