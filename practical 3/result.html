@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            padding:40px;
+        }
+
+        h1{
+            text-align:center;
+            margin-bottom:15px;
+            letter-spacing:1px;
+        }
+
+        hr{
+            border:none;
+            border-top:2px solid #999;
+            margin:20px 0;
+        }
+
+        h2{
+            text-align:center;
+            margin-bottom:30px;
+        }
+
+        .result-box{
+            width:500px;
+            margin:30px auto;
+            padding:30px;
+            border:2px solid #ccc;
+            border-radius:12px;
+            box-shadow:0 5px 12px rgba(0,0,0,0.2);
+        }
+
+        .form-group{
+            margin-bottom:20px;
+        }
+
+        label{
+            display:block;
+            font-size:18px;
+            font-weight:bold;
+            margin-bottom:8px;
+        }
+
+        select,
+        input{
+            width:100%;
+            padding:12px;
+            font-size:16px;
+            border:1px solid #888;
+            border-radius:8px;
+            outline:none;
+        }
+
+        select:focus,
+        input:focus{
+            border:2px solid #444;
+        }
+
+        button{
+            width:100%;
+            padding:14px;
+            font-size:18px;
+            border:none;
+            border-radius:8px;
+            cursor:pointer;
+            box-shadow:0 3px 8px rgba(0,0,0,0.2);
+            transition:.3s;
+        }
+
+        button:hover{
+            transform:scale(1.02);
+        }
+
+        @media(max-width:768px){
+
+            body{
+                padding:20px;
+            }
+
+            .result-box{
+                width:100%;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Student Hub Portal</h1>
+
+    <hr>
+
+    <h2>Welcome to the Student Hub Result Page</h2>
+
+    <div class="result-box">
+
+        <form>
+
+            <div class="form-group">
+                <label for="institute">Institute</label>
+
+                <select id="institute">
+                    <option>Select Institute</option>
+                    <option>CSPIT</option>
+                    <option>DEPSTAR</option>
+                    <option>PDPIAS</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="degree">Degree</label>
+
+                <select id="degree">
+                    <option>Select Degree</option>
+                    <option>B.Tech (CE)</option>
+                    <option>B.Tech (IT)</option>
+                    <option>B.Tech (CS)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="semester">Semester</label>
+
+                <select id="semester">
+                    <option>Select Semester</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="studentid">Student ID</label>
+
+                <input
+                    type="text"
+                    id="studentid"
+                    placeholder="Enter Your ID">
+            </div>
+
+            <button type="submit">
+                View Result
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
