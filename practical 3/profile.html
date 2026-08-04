@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            padding:40px;
+        }
+
+        h1{
+            text-align:center;
+            margin-bottom:15px;
+            letter-spacing:1px;
+        }
+
+        hr{
+            border:none;
+            border-top:2px solid #999;
+            margin:20px 0;
+        }
+
+        h2{
+            text-align:center;
+            margin-bottom:25px;
+        }
+
+        .profile-card{
+            width:700px;
+            margin:30px auto;
+            padding:30px;
+            border:2px solid #ccc;
+            border-radius:12px;
+            box-shadow:0 5px 12px rgba(0,0,0,0.2);
+            text-align:center;
+        }
+
+        img{
+            width:160px;
+            height:160px;
+            border:2px solid #888;
+            border-radius:50%;
+            object-fit:cover;
+            margin-bottom:25px;
+        }
+
+        .info{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:15px;
+        }
+
+        .info td{
+            border:1px solid #999;
+            padding:15px;
+            text-align:left;
+            font-size:18px;
+        }
+
+        .info td:first-child{
+            width:35%;
+            font-weight:bold;
+        }
+
+        @media(max-width:768px){
+
+            body{
+                padding:20px;
+            }
+
+            .profile-card{
+                width:100%;
+            }
+
+            .info td{
+                font-size:16px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Student Profile</h1>
+
+    <hr>
+
+    <h2>Personal Information</h2>
+
+    <div class="profile-card">
+
+        <img src="D:\studenthub\images\Photo from Bhavya(8).jpg" alt="Profile Picture">
+
+        <table class="info">
+
+            <tr>
+                <td>Name</td>
+                <td>Bhavya</td>
+            </tr>
+
+            <tr>
+                <td>Roll Number</td>
+                <td>25DCE025</td>
+            </tr>
+
+            <tr>
+                <td>Email</td>
+                <td>25dce025@charusat.edu.in</td>
+            </tr>
+
+            <tr>
+                <td>Phone</td>
+                <td>+91 9998980271</td>
+            </tr>
+
+            <tr>
+                <td>Address</td>
+                <td>
+                    Gautamnagar Main Street Near Maruti Hall,
+                    Lakh Na Bangla Road,
+                    Rajkot, Gujarat - 360007
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</body>
+</html>
