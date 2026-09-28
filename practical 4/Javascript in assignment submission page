@@ -1,0 +1,13 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const fileInput = document.getElementById('assignmentUpload');
+    const uploadButton = document.getElementById('uploadButton');
+    const uploadForm = document.getElementById('uploadForm');
+
+    uploadForm.addEventListener('submit', function(event) {
+        if (fileInput.files.length === 0) {
+            event.preventDefault();
+            alert('Please choose a file before uploading.');
+            fileInput.focus();
+        }
+    });
+});
