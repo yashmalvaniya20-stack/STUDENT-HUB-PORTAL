@@ -1,0 +1,39 @@
+const Login = document.getElementById('Login');
+const usernameInput = document.getElementById('username');
+const passwordInput = document.getElementById('password');
+
+const regex = /^(2[1-5])(dce|dit|dcse)(00[1-9]|0[1-9][0-9]|1[0-2][0-9]|13[0-5])@charusat\.edu\.in$/i;
+const pass=/^(?=.*[A-Z])(?=.*[^A-Za-z0-9]).{8,}$/
+
+Login.addEventListener('click', function() {
+  
+  const usernameValue = usernameInput.value.trim();
+  const passwordValue = passwordInput.value;
+  
+  let errors = [];
+
+  // Check rules
+  if (usernameValue === "") {
+    errors.push("Username cannot be empty.");
+  } else if (!regex.test(usernameValue)) {
+    errors.push("Username must be in the form: 21/22/23/24/25 + dce/it/cse + 0-135 + @charusat.edu.in");
+  }
+
+  if (passwordValue === "") {
+    errors.push("Password cannot be empty.");
+  }else if (!pass.test(passwordValue)) {
+    errors.push("Password must be at least 8 characters long, contain at least one uppercase letter, and one special character.");
+  }
+
+  // Handle results
+  if (errors.length > 0) {
+    alert("Login Failed!\n\n" + errors.join("\n"));
+    // The code stops here. No navigation happens!
+  } else {
+    alert("Login Successful!");
+    
+    // ➔ THIS LINE MOVES THE USER TO THE NEXT PAGE
+    window.location.href = "dashboard.html"; 
+  }
+
+});
