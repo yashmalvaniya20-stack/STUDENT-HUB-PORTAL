@@ -1,0 +1,30 @@
+json data:
+{
+  "id": 101,
+  "name": "John Doe",
+  "city": "New York",
+  "member": true
+}
+html file:
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+async function loadJSON() {
+  const response = await fetch("customer.json");
+  const customer = await response.json();
+  document.getElementById("demo").innerHTML += customer.name + "<br>";
+  document.getElementById("demo").innerHTML += customer.city + "<br>";
+}
+
+loadJSON();
+function myDisplayer(text) {
+  document.getElementById("demo").innerHTML += text + "<br>";
+}
+</script>
+
+</body>
+</html>
