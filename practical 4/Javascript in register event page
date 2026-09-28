@@ -1,0 +1,17 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('registerForm');
+    const fileInput = document.getElementById('certificate');
+
+    // CRITICAL FIX: Check if elements exist before adding listeners
+    if (form && fileInput) {
+        form.addEventListener('submit', function(event) {
+            if (fileInput.files.length === 0) {
+                event.preventDefault();
+                alert('Please choose a certificate file before registering.');
+                fileInput.focus();
+            }
+        });
+    } else {
+        console.error("Error: Could not find 'registerForm' or 'certificate' in the HTML. Check your ID attributes.");
+    }
+});   
